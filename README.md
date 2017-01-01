@@ -21,9 +21,11 @@ source .bashrc
 ```
 sudo mkdir bondbot
 cd bondbot
-sudo touch bot.js
-sudo touch config.js
 sudo apt-get install npm
 npm update
 npm install twit
 ```
+- Download bot.js and config.js to the bondbot directory
+- Add the following to crontab so that the script runs every five minutes
+```
+*/5 * * * * /home/pi/nodejs/bin/node /home/pi/bondbot/bot.js
