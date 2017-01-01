@@ -1,0 +1,27 @@
+{
+  "name": "bondbot",
+  "version": "0.0.0",
+  "description": "Twitter bot that likes and retweets Bond-related tweets",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ningxinzhu/JamesBondBot/"
+  },
+  "keywords": [
+    "node",
+    "node.js",
+    "twitter",
+    "bot",
+    "james",
+    "bond",
+    "bond",
+    "007",
+    "raspberry",
+    "pi"
+  ],
+  "author": "Ningxin Zhu",
+  "license": "ISC"
+}
