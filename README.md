@@ -26,5 +26,4 @@ sudo touch config.js
 sudo apt-get install npm
 npm update
 npm install twit
-npm install cron
 ```
