@@ -1,5 +1,5 @@
 # JamesBondBot
-A Twitter bot ([@JamesBondBot](https://twitter.com/JamesBondBot)) that likes and retweets tweets with hashtags related to James Bond, such as #JamesBond and #007. A Node.js web app running on a Raspberry Pi 3.
+A Twitter bot ([@JamesBondBot](https://twitter.com/JamesBondBot)) that likes the most recent tweet with hashtags related to James Bond, such as #JamesBond and #007. A Node.js web app running on a Raspberry Pi 3.
 
 ## Getting started
 - [Grab and uncompress the latest ARMv7 version of Node.js](https://nodejs.org/en/download/) (at this time of writing, it was v6.9.2) and make Node.js's tools accessible from anywhere on the Pi
