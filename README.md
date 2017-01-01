@@ -19,9 +19,11 @@ sudo apt-get install npm
 npm update
 npm install twit
 ```
+- Create a Twitter account with a verified phone number
+- [Create a new Twitter app](https://apps.twitter.com/app/new) and copy down the Consumer Key / Consumer Secret / Access Token / Access Token Secret
 
 ## Setup
-- Make the bondbot directory and configure it with a package.json file:
+- Make the /home/pi/bondbot directory and configure it with a package.json file:
 ```
 sudo mkdir bondbot
 cd bondbot
