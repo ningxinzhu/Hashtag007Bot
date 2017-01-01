@@ -36,7 +36,6 @@ function retweetLatest() {
 	});
 }
 
-// Try to retweet something as soon as we run the program...
-retweetLatest();
-// ...and then every five minutes
-setInterval(retweetLatest, 300000);
+var cron = require('node-cron');
+ 
+cron.schedule('*/5 * * * *', retweetLatest());
