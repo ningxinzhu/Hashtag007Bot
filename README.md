@@ -25,5 +25,6 @@ sudo touch bot.js
 sudo touch config.js
 sudo apt-get install npm
 npm update
-sudo npm install twit
+npm install twit
+npm install --save node-cron
 ```
